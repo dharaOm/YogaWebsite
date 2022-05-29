@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header>
+
+        <h2 class="heading">CONTACT US</h2>
+        <div id="menu" class="fas fa-bars"></div>
+    
+        
+        <nav class="navbar">
+                <ul>
+                    <li><a href="index.html" class="barItem">Home</a></li>
+                    <li><a href="AboutUs.html" class="barItem">About Us</a></li>
+                    <li><a href="ContactUs.html" class="barItem">Contact Us</a></li>
+                </ul>
+        </nav>
+    
+    </header>
+    <!-- Register form section -->
+
+    <div class="contact">
+       
+      
+    <form action="form_data.html" name= "myForm" onsubmit="return validate()" method="GET" id="form_id">
+        <h4> Get one free class! fill out your information below</h4>
+        <h2>Register Here</h2>
+        <input type="text" name = "FName" value="" id="FNAME" class="box" placeholder="Firstname" required>
+        <input type="text" name = "LName" value="" id="LNAME" class="box" placeholder="Lastname" required>
+        <input type="email" name="Email" value="" id="EMAIL" class="box" placeholder="Email" required>
+        <input type="text" name = "Street" value="" id="STREET"class="box" placeholder="Street" required>
+        <input type="text" name = "City" value="" id="CITY" class="box" placeholder="City" required>
+        <select type="text" name= "State" value="" id="STATE" class= "box" required>
+            <option>Choose State</option>
+            <option value="1">UT</option>
+            <option value="2">CO</option>
+            <option value="3">SD</option>
+            <option value="4">KS</option>
+        </select>
+        <input type="text" name = "Zip" id="ZipID" class="box" placeholder="Zipcode" required>
+        <input type="reset" class="btn" placeholder="Reset">
+        <input type="submit" class="btn" value="Register" onclick="validate()">
+
+    </form>
+        <div class="content">
+        <h3>Contact Us</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere sit, veritatis natus facilis dolores magni id adipisci !</p>
+                <div class="icons">
+            <i class="fas fa-map-marker-alt"></i>Denver, CO
+                </div>
+                <div class="icons">
+            <i class="fas fa-phone"></i>+1 (303)123-4567
+                </div>
+            <div>
+                <img src="https://media.giphy.com/media/DBbPjLMsQPruMkDcrd/giphy.gif" alt="Yoga Image">
+            </div>
+        </div>
+   
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <script type="text/javascript" src="./main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+:root{
+    --orange:#b4a626;
+}
+*{
+    margin: 0; padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+*::selection{
+    background: var(--orange);
+    color: coral;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+section{
+    padding: 0 7%;
+    padding-top: 17rem;
+}
+.btn{
+    font-size: 2rem;
+    padding: 2rem 1rem;
+    background: var(--orange);
+    color: #fff;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background:#333;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0.1rem .3rem rgba(0,0,0,.3);
+    width: 100%;
+}
+header .heading{
+    font-size: 5rem;
+    font-weight: 1000;
+    color:orangered;
+    padding: 1rem;
+    text-align: center;
+
+}
+header #menu{
+    font-size: 3rem;
+    color:darkgray;
+    cursor: pointer;
+    margin: 1rem;
+    display: none;
+
+}
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    background: var(--orange);
+    padding: 1rem;
+}
+header .navbar ul li{
+    margin: 0 2.5rem;
+}
+header .navbar ul li a{
+    font-size: 2em;
+    color:azure
+}
+header .navbar ul li a:hover{
+    color:brown;
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-size: cover;
+}
+.home .image{
+    flex: .5 2 10rem;
+}
+.home .image{
+    width: 100%;
+}
+.home .content{
+    flex: 1 1 40rem;
+}
+.home .content h1{
+    font-size: 5rem;
+    color: orangered;
+}
+.home .content p{
+    font-size: 1.5rem;
+    color:forestgreen;
+    padding: 1rem;
+    padding-top: 3rem;
+}
+.about .content{
+    flex: 1 1 40rem;
+}
+.about .content h1{
+    font-size: 4rem;
+    margin-top: 50px;
+    text-align: center;
+    color:#b4a626;
+}
+.about .content p{
+    font-size: 1.5rem;
+    color:forestgreen;
+    padding: 1rem;
+    padding-top: 3rem;
+}
+table{
+    width: 550px;
+    margin-top: 20px;
+}
+th{
+    text-align: left;
+}
+table, th, td{
+    border: 1px solid goldenrod
+}
+th, td{
+    padding: 8px;
+    font-size: 1.3rem;
+    font-weight: 800;
+}
+.contact{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contact form{
+    flex:1 1 40rem;
+    padding: 2rem;
+    margin: 1rem;
+    margin-top: 20rem;
+    box-shadow:#b4a626;
+}
+.contact .content{
+    flex: 1 1 40rem;
+    padding: 3rem 1rem;
+}
+.contact form .box{
+    width: 100%;
+    color: #333;
+    height: 5rem;
+    font-size: 1.9rem;
+    border-bottom: .2rem solid #b4a626;
+    text-transform: none;
+    margin: 1rem;
+}
+.contact select{
+    font-size: 1.9rem;
+    border-bottom: .2rem solid #b4a626;
+    text-transform: none;
+    margin: 1rem;
+}
+.contact h2{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3em;
+    color: #b4a626;
+}
+.contact h3{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 30px;
+    color: #b4a626;
+}
+.contact h4{
+    text-align: center;
+    font-size: 1.8em;
+    margin-top: 0px;
+    color: #b4a626;
+}
+.contact .content .icons{
+    font-size: 1.9rem;
+    margin-top: 10px;
+    color: #b4a626;
+    padding: .5rem 0;
+}
+.content p{
+    font-size: 1.5rem;
+    color:forestgreen;
+    padding: 1rem;
+    padding-top: 3rem;
+}
+
+.contact .content .icons i{
+    padding-right: 1rem;
+}
+.content img{
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (max-width:500px) {
+    html{
+        font-size: 50%;
+        overflow-x: hidden;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+    header #menu{
+        display: block;
+    }
+    header .navbar{
+        position: fixed;
+        top:6.2rem;
+        right: 0;
+        height: 100%;
+        width: 100%;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
