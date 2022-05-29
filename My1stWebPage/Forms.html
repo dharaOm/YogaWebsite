@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <!-- Forms in html -->
+
+    <h2>Register Page</h2>
+    <form action="backend.php">
+        <label for="fname">First Name:</label>
+        <div> <input type="text" name="myName" id="fname"></div>
+        <label for="lname">Last Name:</label>
+        <div><input type="text" name="myName" id="lname"></div>
+        <label for="email">Email:</label>
+        <div> <input type="email" name="myEmail" id="email"></div>
+        <label for="password">Password:</label>
+        <div><input type="text" id="password"></div>
+        <label for="DOB">D.O.B:</label>
+        <div> <input type="date" name="myDate" id="DOB"></div>
+        <label for="gender">Gender:</label>
+        <div> Female<input type="radio" name="myGender" id="gender"> Male<input type="radio" name="myGender"
+                id="gender"></div>
+        <label for="habits">Habits:</label>
+        <div> You like sports<input type="checkbox" name="myEligibility" id="habits">You like to eat<input
+                type="checkbox" name="myEligibility" id="habits">You like to sleep<input type="checkbox"
+                name="myEligibility" id="habits"></div>
+        <div>
+            <label for="updates">You want to receive updates</label>
+            <select name="mySelection" id="updates">
+                <option value="Yes"> Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+        <div><input type="button" value="Register">
+            <input type="reset" value="Reset">
+        </div>
+
+    </form>
+</body>
+
+</html>
